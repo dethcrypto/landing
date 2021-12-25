@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  title: "dΞth",
+  tagline: "Ethereum dev tools",
+  url: "https://deth.net",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "dethcrypto", // Usually your GitHub org/user name.
+  projectName: "dethcrypto", // Usually your repo name.
 
   presets: [
     [
@@ -44,12 +44,6 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Projects",
-          },
-          {
             href: "https://github.com/dethcrypto",
             label: "GitHub",
             position: "right",
@@ -59,15 +53,6 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
           {
             title: "Community",
             items: [
@@ -95,7 +80,11 @@ const config = {
       },
       prism: {
         theme: darkCodeTheme,
+        disableSwitch: true,
         // darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        disableSwitch: true,
       },
     }),
 };

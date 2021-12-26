@@ -35,7 +35,7 @@ function Feature({ Svg, title, description, url }) {
       <div className="text--center padding-horiz--md">
         <h3>
           <Link to={url}>
-            {title}
+            {title}{" "}
             <svg
               width="13.5"
               height="13.5"

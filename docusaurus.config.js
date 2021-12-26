@@ -48,6 +48,11 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            href: "https://twitter.com/dethcrypto",
+            label: "Twitter",
+            position: "right",
+          },
         ],
       },
       footer: {
